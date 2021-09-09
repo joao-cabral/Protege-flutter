@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:protege/src/components/appbar_component.dart';
 
 import 'custom_buttom_component.dart';
 
@@ -23,7 +24,10 @@ class _HomeComponentState extends State<HomeComponent> {
   @override
   Widget build(BuildContext context) {
     return SafeArea(
-      child: SingleChildScrollView(
+        child: Scaffold(
+      backgroundColor: Colors.transparent,
+      appBar: appBarComponent('Home'),
+      body: SingleChildScrollView(
         child: Padding(
           padding: const EdgeInsets.only(
               left: 16.0, top: 8.0, right: 16.0, bottom: 8.0),
@@ -89,6 +93,6 @@ class _HomeComponentState extends State<HomeComponent> {
           ),
         ),
       ),
-    );
+    ));
   }
 }

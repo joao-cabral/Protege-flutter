@@ -2,7 +2,7 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:protege/src/components/background.dart';
-import 'package:protege/src/routes.dart';
+// import 'package:protege/src/routes.dart';
 
 class SplashScreenView extends StatefulWidget {
   @override

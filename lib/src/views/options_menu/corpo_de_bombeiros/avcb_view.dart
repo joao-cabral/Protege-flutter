@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:protege/src/components/appbar_component.dart';
 import 'package:protege/src/components/background.dart';
 
-class TesteDeEstanqueidadeView extends StatelessWidget {
-  const TesteDeEstanqueidadeView({Key? key}) : super(key: key);
+class AvcbView extends StatelessWidget {
+  const AvcbView({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -11,13 +11,11 @@ class TesteDeEstanqueidadeView extends StatelessWidget {
       children: [
         BackgroundComponent(),
         Scaffold(
+          // appBar: appBarComponent('ANP'),
           backgroundColor: Colors.transparent,
-          appBar: appBarComponent('Teste de Estanqueidade'),
+          appBar: appBarComponent('AVCB'),
           body: Center(
-            child: Text(
-              'Nenhum documento baixado ainda!\nTeste de Estanqueidade',
-              style: TextStyle(fontSize: 20),
-            ),
+            child: Text("Aqui fica a lista de pdf's"),
           ),
         ),
       ],

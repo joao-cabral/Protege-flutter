@@ -5,4 +5,5 @@ class Routes {
   static const REGISTER_VIEW = '/login/register_view.dart';
   static const VISIT_VIEW = '/login/visit_view.dart';
   static const HOME_VIEW = '/login/home_view.dart';
+  // static const AVCB_VIEW = '/options_menu/corpo_de_bombeiros/avcb_view.dart';
 }

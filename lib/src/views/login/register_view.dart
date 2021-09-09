@@ -1,7 +1,7 @@
 import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:protege/src/components/background.dart';
-import 'package:protege/src/routes.dart';
+// import 'package:protege/src/routes.dart';
 
 class RegisterView extends StatefulWidget {
   @override

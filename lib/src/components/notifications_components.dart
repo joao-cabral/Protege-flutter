@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:protege/src/components/appbar_component.dart';
 import 'package:protege/src/components/background.dart';
 
 class NotificationsComponents extends StatefulWidget {
@@ -17,6 +18,7 @@ class _NotificationsComponentsState extends State<NotificationsComponents> {
         BackgroundComponent(),
         Scaffold(
           backgroundColor: Colors.transparent,
+          appBar: appBarComponent('Notificações'),
           body: Center(
             child: Text(
               'Nenhum notificação disponível!',

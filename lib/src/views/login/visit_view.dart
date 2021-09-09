@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:protege/src/components/background.dart';
-import 'package:protege/src/routes.dart';
+// import 'package:protege/src/routes.dart';
 
 class VisitView extends StatefulWidget {
   // ForgetPassword({Key? key}) : super(key: key);
@@ -10,7 +10,7 @@ class VisitView extends StatefulWidget {
 }
 
 class _VisitViewState extends State<VisitView> {
-  static const logo = 'assets/logo.png';
+  // static const logo = 'assets/logo.png';
 
   @override
   Widget build(BuildContext context) {

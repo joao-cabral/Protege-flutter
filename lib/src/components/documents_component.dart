@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:protege/src/components/appbar_component.dart';
 import 'package:protege/src/components/background.dart';
 
 class DocumentsComponents extends StatefulWidget {
@@ -16,6 +17,7 @@ class _DocumentsComponentsState extends State<DocumentsComponents> {
         BackgroundComponent(),
         Scaffold(
           backgroundColor: Colors.transparent,
+          appBar: appBarComponent('Documentos'),
           body: Center(
             child: Text(
               'Nenhum documento baixado ainda!',
